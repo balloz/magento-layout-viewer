@@ -1,0 +1,20 @@
+<?php $entries = $this->getBlockEntries(); ?>
+<div class="balloz-toolbar">
+	<a href="#balloz-layout-viewer">LV</a>
+</div>
+<div id="balloz-layout-viewer" class="balloz-layout-viewer">
+	<?php foreach ($entries as $entry) : ?>
+	<div style="padding-left: <?php echo $entry['level'] * 20; ?>px;">
+		<?php if ($entry['level'] == 1) : ?>
+		<span class="limegreen">
+			<?php echo $entry['alias']; ?> 
+		</span>
+		<?php else : ?>
+		<span class="white">
+			<?php echo $entry['alias']; ?> 
+		</span>
+		<?php endif; ?>
+		(<?php echo implode(' | ', $entry['extras']); ?>)
+	</div>
+	<?php endforeach; ?>
+</div>

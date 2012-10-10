@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Balloz_LayoutViewer>
+            <version>0.0.1</version>
+        </Balloz_LayoutViewer>
+    </modules>
+    
+	<global>
+		<blocks>
+			<layoutviewer>
+				<class>Balloz_LayoutViewer_Block</class>
+			</layoutviewer>
+		</blocks>
+    </global>
+	<frontend>
+        <layout>
+            <updates>
+                <layoutviewer>
+                    <file>balloz_layoutviewer.xml</file>
+                </layoutviewer>
+            </updates>
+        </layout>
+    </frontend>
+</config>

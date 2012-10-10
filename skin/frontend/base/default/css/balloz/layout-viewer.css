@@ -1,0 +1,40 @@
+.balloz-toolbar {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 20px;
+	color: black;
+	background: #ccc;
+	border-left: 1px solid #666666;
+	border-top: 1px solid #666666;
+	z-index: 5678;
+}
+.balloz-toolbar a {
+	font-size: 12pt;
+	color: black;
+	display: block;
+	line-height: 20px;
+}
+.balloz-layout-viewer {
+	font-family: monospace;
+	font-size: 9pt;
+	background-color: black;
+	color: darkgray;
+	border-radius: 4px;
+	width: 640px;
+	height: 480px;
+	position: fixed;
+	right: 0;
+	bottom: 20px;
+	z-index: 5670;
+	overflow: auto;
+	padding: 15px;
+	border: 3px solid gray;
+	display: none;
+}
+.balloz-layout-viewer .limegreen {
+	color: limegreen;
+}
+.balloz-layout-viewer .white {
+	color: white;
+}
