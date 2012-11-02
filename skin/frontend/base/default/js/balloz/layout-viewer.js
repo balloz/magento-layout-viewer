@@ -25,6 +25,7 @@
 		$(document).ready(function() {
 			$('.balloz-toolbar a').click(function() {
 				$($(this).attr('href')).toggle();
+				return false;
 			});
 		});
 	});
