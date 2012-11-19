@@ -1,0 +1,15 @@
+{
+    "name": "balloz/magento-layout-viewer",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "An on-page viewer for Magento's layout structure",
+    "authors":[
+        {
+            "name": "Bas Mostert",
+            "email": "b.mostert@balloz.nl"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    }
+}
