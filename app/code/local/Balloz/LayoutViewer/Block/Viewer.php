@@ -20,6 +20,7 @@ class Balloz_LayoutViewer_Block_Viewer extends Mage_Core_Block_Template
 		// sprintf("$offset%s %s\n", $alias, $this->_colorize($extraString, self::COLOR_DARK_GRAY))
 
 		$entries[] = array(
+			'name' => $block->getNameInLayout(),
 			'alias' => $alias,
 			'level' => $level,
 			'extras' => $extras

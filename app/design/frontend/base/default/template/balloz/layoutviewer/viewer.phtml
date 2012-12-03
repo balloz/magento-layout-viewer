@@ -7,11 +7,11 @@
 	<div style="padding-left: <?php echo $entry['level'] * 20; ?>px;">
 		<?php if ($entry['level'] == 1) : ?>
 		<span class="limegreen">
-			<?php echo $entry['alias']; ?> 
+			<?php echo $entry['alias']; ?> (<?php echo $entry['name']; ?>)
 		</span>
 		<?php else : ?>
 		<span class="white">
-			<?php echo $entry['alias']; ?> 
+			<?php echo $entry['alias']; ?> (<?php echo $entry['name']; ?>)
 		</span>
 		<?php endif; ?>
 		(<?php echo implode(' | ', $entry['extras']); ?>)
