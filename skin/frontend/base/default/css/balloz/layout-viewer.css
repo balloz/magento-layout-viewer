@@ -32,6 +32,9 @@
 	border: 3px solid gray;
 	display: none;
 }
+.balloz-layout-viewer div {
+	text-align: left;
+}
 .balloz-layout-viewer .limegreen {
 	color: limegreen;
 }
