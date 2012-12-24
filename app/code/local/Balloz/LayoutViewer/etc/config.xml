@@ -22,4 +22,13 @@
             </updates>
         </layout>
     </frontend>
+    <adminhtml>
+    	<layout>
+    		<updates>
+    			<layoutviewer>
+    				<file>balloz_layoutviewer.xml</file>
+    			</layoutviewer>
+    		</updates>
+    	</layout>
+    </adminhtml>
 </config>

@@ -1,6 +1,11 @@
 app/code/local/Balloz/LayoutViewer app/code/local/Balloz/LayoutViewer
 app/design/frontend/base/default/layout/balloz_layoutviewer.xml app/design/frontend/base/default/layout/balloz_layoutviewer.xml
+app/design/frontend/base/default/layout/balloz_layoutviewer.xml app/design/adminhtml/default/default/layout/balloz_layoutviewer.xml
 app/design/frontend/base/default/template/balloz/layoutviewer app/design/frontend/base/default/template/balloz/layoutviewer
+app/design/frontend/base/default/template/balloz/layoutviewer app/design/adminhtml/default/default/template/balloz/layoutviewer
 app/etc/modules/Balloz_LayoutViewer.xml app/etc/modules/Balloz_LayoutViewer.xml
 skin/frontend/base/default/css/balloz/layout-viewer.css skin/frontend/base/default/css/balloz/layout-viewer.css
 skin/frontend/base/default/js/balloz/layout-viewer.js skin/frontend/base/default/js/balloz/layout-viewer.js
+skin/frontend/base/default/css/balloz/layout-viewer.css skin/adminhtml/default/default/css/balloz/layout-viewer.css
+skin/frontend/base/default/js/balloz/layout-viewer.js skin/adminhtml/default/default/js/balloz/layout-viewer.js
+
